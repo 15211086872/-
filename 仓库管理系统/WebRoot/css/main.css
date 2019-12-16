@@ -1,0 +1,127 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 12px;
+	font-family: "寰蒋闆呴粦";
+	background: url(../images/gz.jpg) no-repeat center center;
+	background-size: cover; /*姝ゅ鏈夐棶棰樺緟娣辩┒锛�*/
+	background-attachment: fixed;
+}
+.ui-dialog{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 100px;
+	left:100px;
+	z-index: 9000;
+	border:1px solid #d5d5d5;
+	margin: auto;
+	display: none;
+	background:rgba(0,0,0,0.6);
+	color:#fff;
+}
+.ui-dialog a{
+	text-decoration: none;
+}
+.ui-dialog-title{
+	height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid #efefef;
+    background: rgba(0,0,0,0.6);
+    cursor: move;
+    user-select:none;
+}
+.ui-dialog-closebutton{
+	width: 16px;
+	height: 16px;
+	display: block;
+	position: absolute;
+	top: 12px;
+	right: 16px;
+	background:url(../images/close-link.png) no-repeat;
+	cursor:pointer;
+}
+.ui-dialog-closebutton:hover{
+	background: url(../images/close-hover2.png) no-repeat;
+}
+.ui-dialog-content{
+	padding: 15px 20px;
+}
+.ui-dialog-pt15{
+	padding-top: 15px;
+}
+.interval{
+	margin-top: 10px;
+}
+.ui-dialog-140{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;	
+}
+.ui-dialog-140 a{
+	color: #d0985d;
+}
+.ui-dialog-140 a:hover{
+	text-decoration: underline;
+}
+.ui-dialog-input{
+	width: 88%;
+	height: 36px;
+	margin: 0;
+	padding: 0;
+	border:1px solid #d5d5d5;
+	font-size: 16px;
+	color: black;
+	padding-left: 12%;
+	outline: none;
+	overflow: hidden;
+}
+.ui-dialog-input-username{
+	background: url(../images/user.png) no-repeat 5px;
+	color:white;
+}
+.ui-dialog-input-password{
+	background: url(../images/pwd-link.png) no-repeat 5px;
+	color:white;
+}
+.ui-dialog-submit{
+	width: 100%;
+	height: 50px;
+	background: #d3914b;
+	border:none;
+	font-size: 16px;
+	color: #fff;
+	outline: none;
+	text-align: center;
+	line-height: 50px;
+	display: block;
+}
+.ui-dialog-submit:hover{
+	background:#dc8021;
+}
+.ui-mask{
+	width: 100%;
+	height: 100%;
+	background:#000;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8000;
+	display: none;
+}
+.link{
+	text-align: right;
+	font-size: 16px;
+	line-height: 20px;
+	padding-right: 50px;
+}
+.link a{
+	text-decoration: none;
+	color: #fff;
+}
